@@ -1,0 +1,17 @@
+{
+  "name": "web-dev-server-demo",
+  "version": "1.0.0",
+  "description": "this is a demo of web-dev-server module",
+  "main": "/modules/entrance/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server "
+  },
+  "author": "黄传剑",
+  "license": "ISC",
+  "devDependencies": {
+    "html-webpack-plugin": "^2.30.1",
+    "webpack": "^3.4.1",
+    "webpack-dev-server": "^2.6.1"
+  }
+}
