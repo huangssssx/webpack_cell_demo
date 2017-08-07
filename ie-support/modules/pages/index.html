@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>web-dev-server demo</title>
+	</head>
+	<body>
+		<div class="titleDom">1</div>
+		<div id="root"></div>
+	</body>
+	
+	<script>
+		jssdk.config({
+			appid:"#113289",
+			actionList:[
+				"login",
+				"register"
+			]
+		});
+		
+		jssdk.ready(function(){
+			jssdk.logigUserNameValidate();
+			
+		});
+	</script>
+</html>

@@ -1,0 +1,16 @@
+{
+	"name": "multiple-entrance",
+	"version": "1.0.0",
+	"description": "多入口情况",
+	"main": "modules/entrance/index.js",
+	"scripts": {
+		"start": "webpack-dev-server --hot --inline --progress"
+	},
+	"author": "hcj",
+	"license": "ISC",
+	"devDependencies": {
+		"html-webpack-plugin": "^2.30.1",
+		"webpack": "^3.4.1",
+		"webpack-dev-server": "^2.6.1"
+	}
+}
